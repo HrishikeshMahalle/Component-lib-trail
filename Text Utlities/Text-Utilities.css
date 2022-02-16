@@ -1,0 +1,123 @@
+@import "../ComponentsCss/header.css";
+@import "../ComponentsCss/global.css";
+@import "../ComponentsCss/body.css";
+@import "../ComponentsCss/code.css";
+
+.text-headings{
+    border: solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.text-head-cont{
+    border: solid;
+    color:#3e8e41;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(148, 148, 148);
+    padding: 1rem;
+}
+.heading-xl{
+    font-size: 3rem;
+}
+.heading-l{
+    font-size: 2.5rem;
+}
+.heading-m{
+    font-size: 2rem;
+}
+.heading-s{
+    font-size: 1.5rem;
+}
+.heading-xs{
+    font-size: 1rem;
+}
+.heading-xxs{
+    font-size: 0.5rem;
+}
+.heading-xl{
+    font-size: 3rem;
+}
+.first-cap::first-letter{
+    font-size: 4rem;
+    color: red;
+}
+.grey{
+    color: grey;
+}
+
+.text-align-cont{
+    border: solid;
+    width: 30rem;
+    height: 10rem;
+    position: relative;
+    color:#3e8e41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(148, 148, 148);
+    padding: 1rem;
+}
+.left-top-align{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.left-center-align{
+    position: absolute;
+    left: 0;
+}
+.left-bottom-align{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.center-top-align{
+    position: absolute;
+    top: 0;
+}
+.center-bottom-align{
+    position: absolute;
+    bottom: 0;
+}
+
+.right-bottom-align{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.right-center-align{
+    position: absolute;
+    right: 0;
+}
+.right-top-align{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-para-cont{
+    border: solid;
+    
+    height: auto;
+    color:#3e8e41;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(148, 148, 148);
+    padding: 1rem;
+}

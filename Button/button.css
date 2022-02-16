@@ -1,0 +1,343 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.center{
+    width: 70rem;   
+}
+
+.center .head{
+    height: 5rem;
+    font-size: 2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center .head h1{
+    border-bottom: 0.2rem solid red;
+} */
+@import "../ComponentsCss/header.css";
+@import "../ComponentsCss/global.css";
+@import "../ComponentsCss/body.css"; 
+
+
+.center .show-square{
+    display: flex;
+    flex-flow: column;
+    
+}
+.center .show-square .cont-head{
+    height: 4rem;
+    font-size:1.5rem;
+    
+}
+.center .show-square .display-area{
+    border: solid;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.center .show-square .display-area .button.btn-small{
+    color: white;
+    background-color: #009A4E;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+}
+.center .show-square .display-area .button.btn-mid{
+    color: white;
+    background-color: #009A4E;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+.center .show-square .display-area .button.btn-large{
+    color: white;
+    background-color: #009A4E;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+}
+
+.code-box {
+    
+    background: #eee;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.code-box .code-header{
+    padding: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.code {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    
+}
+.line {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0.3rem;
+    position: relative;
+    left: 0%;
+}
+.code-box>.code>.line>span {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    white-space: pre;
+}
+.element {
+    color: #2f6f9f;
+}
+.attribute {
+    color: #006ee0;
+}
+.attr-content {
+    color: #d73038;
+}
+.comment {
+    color: lightseagreen;
+}
+
+.show-square2 .cont-head{
+    padding: 2rem;
+    font-size:1.5rem ;
+}
+
+.show-square2 .display-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border:solid;
+    padding: 0.5rem;
+}
+.show-square2 .display-area .button.btn-solid{
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #009A4E;
+    border-radius: 0.3rem;
+}
+.show-square2 .display-area .button.btn-outline{
+    padding: 1rem;
+    font-size: 1rem;
+    color: #009A4E;
+    border: solid #009A4E;
+    border-radius: 0.3rem;
+}
+.show-square2 .display-area .button.btn-ghost{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    transition: 300ms;
+}
+.show-square2 .display-area .button.btn-ghost:hover{
+    padding: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.24), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 0.3rem;
+}
+.show-square2 .display-area .button.btn-line{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    transition: 100ms;
+}
+.show-square2 .display-area .button.btn-line:hover{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid;
+}
+
+
+.show-square3 .cont-head{
+    padding: 1rem;
+    font-size:1.5rem ;
+}
+.show-square3 .display-area{
+    border: solid;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.show-square3 .button.btn-message{
+    padding: 1rem;
+    color: white;
+    background-color: #009A4E;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.show-square3 .button.btn-call{
+    padding: 1rem;
+    color: white;
+    background-color: #009A4E;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+
+.show-square4 .cont-head{
+    padding: 1rem;
+    font-size:1.5rem ;
+}
+
+.show-square4 .display-area{
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.show-square4 .display-area .button.btn-alert{
+    padding: 1rem;
+    color: white;
+    background-color: #009A4E;
+    border-radius: 0.3rem;
+}
+.show-square4 .display-area .button.btn-alert:active{
+    padding: 1rem;
+    color: white;
+    background-color: #009a4dd8;
+    border-radius: 0.3rem;
+}
+.container{
+    position: relative;
+}
+.alert-square{
+    display: none;
+}
+
+.alert-square.show{
+    height:3rem;
+    border: solid red;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #eee; 
+    bottom: 0;
+}
+
+.alert-square.show span{
+    padding-left: 0.5rem;
+}
+
+.alert-square.show .closeBtn{
+    flex: 0.5;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 5px 1px #ccc;
+  }
+
+.header__left {
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+.header__left a{
+    all: unset;
+}
+  
+.header__right {
+    margin-left: auto;
+  }
+  
+.header__right a {
+    font-size: 2rem;
+    margin: 0 0.625rem;
+  }
+
+
+
+.dropbtn {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    transition: 100ms ease-in;
+  }
+.dropbtn a{
+    all: unset;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #3e8e41;border-radius: 3rem 0rem 0rem 3rem; color: white;margin-top: 0.1rem;text-shadow: 2px 2px 1px black;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41; border-radius: 3rem 0rem 0rem 3rem; color: white}
+
+@media screen and (max-width:820px) {
+    .center{
+        width: 100%;
+    }
+}
+

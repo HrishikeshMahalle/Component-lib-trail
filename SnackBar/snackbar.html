@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../favicon.ico"/>
+    <script src="https://kit.fontawesome.com/75428b03fa.js" crossorigin="anonymous"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+    integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
+    integrity="sha512-Jk4AqjWsdSzSWCSuQTfYRIF84Rq/eV0G2+tu07byYwHcbTGfdmLrHjUSwvzp5HvbiqK4ibmNwdcG49Y5RGYPTg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="snackbar.css">
+    <title>SnackBar</title>
+</head>
+<body>
+  <header class="header flex-row">
+    <div class="dropdown">
+        <div class="header__left dropbtn"> <a href="../index.html"> Castrol UI /SnackBar</a></div>
+        <div class="dropdown-content">
+            <a href="../Alert/alert.html">Alert</a>
+            <a href="../Badge/Badge.html">Badge</a>
+            <a href="../Button/button.html">Button</a>
+            <a href="../Card/card.html">Card</a>
+            <a href="../Icons/icons.html">Avatar</a>
+            <a href="../Image/image.html">Image</a>
+            <a href="../Inputbox/inputbox.html">InputBox</a>
+            <a href="../Modal/modal.html">Modal</a>
+            <a href="../SnackBar/snackbar.html">SnackBar</a>
+            <a href="../Navigations/navigations.html">Navigations</a>
+            <a href="../Text Utlities/textutil.html">Text Utilities</a>
+            <a href="../Lists/List.html">List</a>
+            <a href="../Grid/grid.html">Grid</a>
+          </div>
+    </div>
+    <div class="header__right flex-row">
+      <a href=""><i class="fab fa-github"></i></a>
+      <a href=""><i class="fab fa-linkedin"></i></a>
+      <a href=""><i class="fab fa-twitter"></i></a>
+      <a href=""><i class="fas fa-moon"></i></a>
+    </div>
+</header>
+    <div class="container">
+        <div class="center">
+            <div class="cont-head">
+                <h1>SnackBar</h1>
+            </div>
+            <div class="sub-head">
+                Snackbar
+            </div>
+            <div class="sub-cont">
+                <div class="snackbar-btn">
+                    <button id="baseline-btn">Baseline</button>
+                </div>
+                <div class="show">
+                    <div class="text">
+                        <p> Can't send photo. Retry in 5 seconds.</p>
+                    </div>
+                     <div class="retry-btn"><button>Retry</button></div>
+                     <div class="close-btn"><button><i class="fas fa-times"></i></button></div>
+                 </div>
+            </div>
+            <div class="code">
+                <main class="installation-guide flex-col flex-center">
+                  <div class="installation-text flex-col">
+                    <h2>Code preview</h2>
+                  </div>
+                  <div class="intallation-code">
+                    <pre>
+                      <code class="hljs language-bash">&lt;<span class="hljs-built_in">button</span> id=<span class="hljs-string">"baseline-btn"</span>&gt;<span class="hljs-string"> Baseline</span> &lt;/<span class="hljs-built_in">button</span>&gt;<br>
+      &lt;<span class="hljs-built_in">div</span> class=<span class="hljs-string">"show"</span>&gt;<span class="hljs-string">
+        &lt;<span class="hljs-built_in">div</span> class=<span class="hljs-string">"text"</span>&gt;<span class="hljs-string"> 
+
+            &lt;p&gt;Cant send photo.Retry in 5 seconds&lt;/p&gt;
+          </span></span> 
+          &lt;/<span class="hljs-built_in">div</span>&gt;
+          &lt;<span class="hljs-built_in">div</span> class=<span class="hljs-string">"retry-btn"</span>&gt;<span class="hljs-string">
+            &lt;<span class="hljs-built_in">button</span>&gt;<span class="hljs-string"> Retry</span> &lt;/<span class="hljs-built_in">button</span>&gt;
+          &lt;<span class="hljs-built_in">div</span> class=<span class="hljs-string">"close-btn"</span>&gt;<span class="hljs-string">
+            &lt;<span class="hljs-built_in">button</span>&gt;<span class="hljs-string">Btn-icon</span> &lt;/<span class="hljs-built_in">button</span>&gt;
+          </span></span> &lt;/<span class="hljs-built_in">div</span>&gt; 
+        </span> &lt;/<span class="hljs-built_in">div</span>&gt; 
+      </span> &lt;/<span class="hljs-built_in">div</span>&gt;
+      </code> 
+                    </pre>
+                  </div>
+                </main>
+              </div>
+        </div>
+    </div>
+</body>
+<script src="../Components-JS/snackbar.js"></script>
+</html>

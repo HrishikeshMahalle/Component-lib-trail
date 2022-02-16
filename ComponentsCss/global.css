@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-center {
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 800px) {
+    html {
+      font-size: 85%;
+    }
+    .alert-head{
+        text-align: center;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    html {
+      font-size: 75%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    html {
+      font-size: 65%;
+    }
+  }

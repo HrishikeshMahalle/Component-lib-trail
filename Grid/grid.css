@@ -1,0 +1,50 @@
+@import "../ComponentsCss/header.css";
+@import "../ComponentsCss/global.css";
+@import "../ComponentsCss/body.css";
+@import "../ComponentsCss/code.css";
+
+:root{
+    --gird-item-color:#a9a9a9;
+}
+
+.center .grid-head{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.center .grid-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+}
+
+.center .grid-items-3{
+    display: grid;
+    border: solid;
+    width: auto;
+    grid-template-columns: 5rem 5rem 5rem;
+    grid-template-rows:1fr;
+    gap: 0.5rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px 5px #a9a9a9
+}
+
+.grid-item{
+    height: 5rem;
+    width: 5rem;
+    background-color:var(--gird-item-color)
+}
+
+.center .grid-items-2{
+    display: grid;
+    border: solid;
+    width: auto;
+    grid-template-columns: 5rem 5rem;
+    grid-template-rows:1fr 1fr;
+    gap: 0.5rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px 5px #a9a9a9
+}

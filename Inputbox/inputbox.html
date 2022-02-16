@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../favicon.ico"/>
+    <script src="https://kit.fontawesome.com/75428b03fa.js" crossorigin="anonymous"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+    integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
+    integrity="sha512-Jk4AqjWsdSzSWCSuQTfYRIF84Rq/eV0G2+tu07byYwHcbTGfdmLrHjUSwvzp5HvbiqK4ibmNwdcG49Y5RGYPTg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="inputbox.css">
+    <title>InputBox</title>
+</head>
+<body>
+    <header class="header flex-row">
+        <div class="dropdown">
+            <div class="header__left dropbtn"> <a href="../index.html"> Castrol UI /InputBox</a></div>
+            <div class="dropdown-content">
+                <a href="../Alert/alert.html">Alert</a>
+                <a href="../Badge/Badge.html">Badge</a>
+                <a href="../Button/button.html">Button</a>
+                <a href="../Card/card.html">Card</a>
+                <a href="../Icons/icons.html">Avatar</a>
+                <a href="../Image/image.html">Image</a>
+                <a href="../Inputbox/inputbox.html">InputBox</a>
+                <a href="../Modal/modal.html">Modal</a>
+                <a href="../SnackBar/snackbar.html">SnackBar</a>
+                <a href="../Navigations/navigations.html">Navigations</a>
+                <a href="../Text Utlities/textutil.html">Text Utilities</a>
+                <a href="../Lists/List.html">List</a>
+                <a href="../Grid/grid.html">Grid</a>
+              </div>
+        </div>
+        <div class="header__right flex-row">
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fas fa-moon"></i></a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="center">
+            <div class="cont-head">
+                <h1>InputBox</h1>
+            </div>
+            <div class="input-box">
+                <div class="input-head">
+                    Various inputs with Labels
+                </div>
+                <div class="input-tabs">
+                    <div class="input-elem username">
+                        <label for="username">Username</label>
+                        <input type="text" placeholder="Username" class="inp">
+                    </div>
+                    <div class="input-elem email">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email" class="inp">
+                    </div>
+                    <div class="input-elem password">
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Password" class="inp">
+                    </div>
+                </div>
+                <div class="input-code">
+                    <div class="code-header">Code Preview</div>
+                    <div class="code">
+                        <div class="line">
+                            <span class="sym"><</span>
+                            <span class="element">div</span>
+                            <span class="attribute"> class</span>
+                            <span class="sym">=</span>
+                            <span class="attr-content">"input-elem username"</span>
+                            <span class="sym">></span>
+                            <span class="sym"><</span>
+                            <span class="sym">/</span>
+                            <span class="element">div</span>
+                            <span class="sym">></span>
+                        </div>
+                    </div>
+                    <div class="code">
+                        <div class="line">
+                            <span class="sym"><</span>
+                            <span class="element">div</span>
+                            <span class="attribute"> class</span>
+                            <span class="sym">=</span>
+                            <span class="attr-content">"input-elem email"</span>
+                            <span class="sym">></span>
+                            <span class="sym"><</span>
+                            <span class="sym">/</span>
+                            <span class="element">div</span>
+                            <span class="sym">></span>
+                        </div>
+                    </div>
+                    <div class="code">
+                        <div class="line">
+                            <span class="sym"><</span>
+                            <span class="element">div</span>
+                            <span class="attribute"> class</span>
+                            <span class="sym">=</span>
+                            <span class="attr-content">"input-elem password"</span>
+                            <span class="sym">></span>
+                            <span class="sym"><</span>
+                            <span class="sym">/</span>
+                            <span class="element">div</span>
+                            <span class="sym">></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-head">
+                    Textarea
+                </div>
+                <div class="input-tabs">
+                    <div class="input-elem textarea">
+                        <label for="textarea">Textarea</label>
+                        <textarea name="textarea"  type="text" placeholder="Please Type ur text" class="textarea"></textarea>
+                    </div>
+                </div>
+                <div class="input-code">
+                    <div class="code-header">Code Preview</div>
+                    <div class="code">
+                        <div class="line">
+                            <span class="sym"><</span>
+                            <span class="element">div</span>
+                            <span class="attribute"> class</span>
+                            <span class="sym">=</span>
+                            <span class="attr-content">"input-elem textarea"</span>
+                            <span class="sym">></span>
+                            <span class="sym"><</span>
+                            <span class="sym">/</span>
+                            <span class="element">div</span>
+                            <span class="sym">></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-head">
+                    Password with Validation
+                </div>
+                <div class="input-tabs">
+                    <div class="input-elem password valid">
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Password" class="inpPwd"/>
+                        <span class="popup"> *Please make ur password greater than 8 Chars </span>
+                    </div>
+                </div>
+                <div class="input-code">
+                    <div class="code-header">Code Preview</div>
+                    <div class="code">
+                        <div class="line">
+                            <span class="sym"><</span>
+                            <span class="element">div</span>
+                            <span class="attribute"> class</span>
+                            <span class="sym">=</span>
+                            <span class="attr-content">"input-elem password valid"</span>
+                            <span class="sym">></span>
+                            <span class="sym"><</span>
+                            <span class="sym">/</span>
+                            <span class="element">div</span>
+                            <span class="sym">></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script>
+    const selectElem = document.querySelector(".inpPwd")
+    const selectSpan = document.querySelector(".popup")
+    window.addEventListener('keyup',()=>{
+        if(selectElem.value.length < 8){
+            selectSpan.classList.remove("unshow")
+        }else{
+            selectSpan.classList.add("unshow")
+        }
+    })
+</script>
+</html>

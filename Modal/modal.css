@@ -1,0 +1,69 @@
+@import "../ComponentsCss/header.css";
+@import "../ComponentsCss/global.css";
+@import "../ComponentsCss/body.css"; 
+
+.modal-item{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+}
+
+#modal-opener{
+  color: white;
+  background-color: #6E14EF;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: larger;
+  
+}
+#modal-opener:active{
+  color: white;
+  background-color: #9552f3;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.modal-box{
+  display: none;
+}
+
+.modal-box.show{
+  position: absolute;
+  top: 50%;
+  width: auto;
+  height: auto;
+  font-size: 1rem;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  box-shadow: 3px 2px 5px 1px rgb(73, 72, 72);
+  border-radius: 10px;
+}
+.modal-box .modal-buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-box .modal-head{
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.modal-box .modal-buttons .action,.action1 {
+  all: unset;
+  padding: 1rem;
+  color: purple;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  border-radius: 5rem;
+  margin: 0.5rem;
+}
+
+.modal-box .modal-buttons .action:hover,.action1:hover {
+  background-color: rgb(186, 139, 231);
+}
+
+.code{
+  border: solid;
+  margin: 3rem;
+}

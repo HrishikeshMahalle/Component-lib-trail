@@ -1,0 +1,254 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    font-size: 100%;
+}
+
+.container{
+    height: 90vh;
+    border: solid;
+    display: flex;
+    justify-content: center;
+}
+.center{
+    border: solid;
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+}
+.center .cont-head {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+} */
+@import "../ComponentsCss/header.css";
+@import "../ComponentsCss/global.css";
+@import "../ComponentsCss/body.css"; 
+
+
+.center .icon-header{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.center .icons{
+    border: solid;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items:flex-end
+}
+.center .icons .icon.icon-xlg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+    object-fit: cover;
+}
+
+.center .icons .icon.icon-xlg{
+    border: solid;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: scale-down;
+    
+}
+.center .icons .icon.icon-lg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+    object-fit: cover;
+}
+.center .icons .icon.icon-lg{
+    height: 7.5rem;
+    width: 7.5rem;
+    border: solid;
+    border-radius: 50%;
+}
+.center .icons .icon.icon-mid img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+    object-fit: cover;
+}
+.center .icons .icon.icon-mid{
+    height: 5.5rem;
+    width: 5.5rem;
+    border: solid;
+    border-radius: 50%;
+}
+.center .icons .icon.icon-sm img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+    object-fit: cover;
+}
+.center .icons .icon.icon-sm{
+    height: 3rem;
+    width: 3rem;
+    border: solid;
+    border-radius: 50%;
+}
+
+
+.icon-code {
+    background: #eee;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.icon-code .code-header{
+    padding: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.code {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    
+}
+.line {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0.5rem;
+    position: relative;
+    left: 0%;
+}
+.line > span{
+    white-space: pre;
+}
+.code-box>.code>.line>span {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    white-space: pre;
+}
+.element {
+    color: #2f6f9f;
+}
+.attribute {
+    color: #006ee0;
+    padding-left: 0.3rem;
+}
+.attr-content {
+    color: #d73038;
+}
+.comment {
+    color: lightseagreen;
+}
+
+
+/* .header{
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+.header .icons{
+    margin-left: auto;
+    padding-left: 1rem;
+}
+.header .icons i{
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+.header .logo{
+    padding-left:1rem;
+    flex: 1;
+}
+.header .logo .main-logo{
+    border: solid;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+} */
+
+.header {
+    height: 10vh;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 5px 1px #ccc;
+  }
+.header__left a{
+    all: unset;
+}
+.header__left {
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+  }
+  
+.header__right {
+    margin-left: auto;
+  }
+  
+.header__right a {
+    font-size: 2rem;
+    margin: 0 0.625rem;
+  }
+
+
+
+.dropbtn {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    transition: 100ms ease-in;
+  }
+.dropbtn a{
+    all: unset;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #3e8e41;border-radius: 3rem 0rem 0rem 3rem; color: white;margin-top: 0.1rem;text-shadow: 2px 2px 1px black;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41; border-radius: 3rem 0rem 0rem 3rem; color: white}
+
+  @media screen and (max-width:820px) {
+    .center{
+        width: 100%;
+    }
+    .card-act-box{
+        display: flex;
+        flex-direction: column;
+    }
+}

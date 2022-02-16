@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    font-size: 100%;
+}
+.container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.center{
+    border: solid;
+    width: 70rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:1rem;
+
+}
+.center .cont-head{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.center .sub-head{
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.center .sub-cont{
+    width: 100%;
+    border: solid;
+    gap: 0.5rem;
+}

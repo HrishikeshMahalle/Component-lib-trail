@@ -1,0 +1,45 @@
+@import "../ComponentsCss/header.css";
+@import "../ComponentsCss/global.css";
+@import "../ComponentsCss/body.css";
+@import "../ComponentsCss/code.css";
+
+.list-cont{
+    border: solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list-bullet{
+    border: 5px solid green;
+    padding: 3rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(148, 148, 148);
+}
+ul.circle {
+    list-style-type: circle;
+  }
+ol.roman {
+    list-style-type:upper-roman;
+}  
+
+.list-unsorted{
+    border: 5px solid green;
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(148, 148, 148);
+}
+.list-unsorted .Item{
+    padding: 1rem;
+    border: solid;
+    width: 15rem;
+}
